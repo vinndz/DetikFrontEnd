@@ -48,9 +48,9 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center">
-        <h1>team.</h1>
+
+        <img src="assets/img/Logo.png" />
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -73,11 +73,12 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+  <section id="hero" class="hero d-flex align-items-center page-header d-flex align-items-center"
+    style="background-image: url('assets/img/background.jpeg');">
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">Instant collaboration
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="padding-bottom: 10%;">
+          <h2 data-aos="fade-up" style="padding-top: 10%;">Instant collaboration
             <h2 data-aos="fade-up">for remote teams
             </h2>
             <p data-aos="fade-up" data-aos-delay="100">All-in one place for you remote team to
@@ -97,7 +98,6 @@
 
             <button type="submit" id="early" class="btn btn-primary " data-aos="fade-up" data-aos-delay="200">Get Early
               Access</button>
-
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
@@ -115,7 +115,6 @@
     <!-- ======= content Section ======= -->
     <section id="features" class="features">
       <div class="container">
-
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-3 order-md-3">
             <img src="assets/img/content1.jpg" width="1000" class="img-fluid" alt="">
@@ -289,6 +288,14 @@
                       blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
                       ultricies laoreet.
                     </p>
+                    <div class="d-flex">
+                      <img src="assets/img/avatar-blog/9.jpg" alt="" class="rounded-circle"
+                        style="width: 56px; height: 56px" />
+                      <div class="d-flex flex-column ms-3">
+                        <div class="name">Mark Zucken</div>
+                        <p class="text-muted designation">Senior VP at Wordpress</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -317,85 +324,77 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
+    <div class="container mt-2">
+      <div class="text-white">
+        <div class="row">
+          <div class="col-lg-3 col-12 col-xs-3 order-1 p-0">
+            <div class="footer-text pull-left">
+              <img src="assets/img/Logo.png" />
+              <p class="card-text mt-4">
+                Collaboration platform <br />
+                for mordern team
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-12 order-3 p-0">
+            <h5 class="heading">Company</h5>
+            <ul class="footer-ul ps-0">
+              <li>Product</li>
+              <li>Blog</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-12 order-4 p-0">
+            <h5 class="heading">Features</h5>
+            <ul class="footer-ul ps-0">
+              <li>Screen Sharing</li>
+              <li>iOS & Android Apps</li>
+              <li>File Sharing</li>
+              <li>User Management</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-12 order-5 p-0">
+            <h5 class="heading">Contact Us</h5>
+            <ul class="footer-ul ps-0">
+              <li>info@teamapp.com</li>
+              <li>1-800-200-300</li>
+              <li>
+                1010 Sunset Blv. <br />
+                Palo Alto, California
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 order-2 order-sm-last p-0">
+            <h5 class="heading">Stay Up To Date</h5>
+            <ul class="footer-ul ps-0">
+              <li>Subscribe to our newseller</li>
+            </ul>
 
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-3 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>team.</span>
-          </a>
-          <p>Collaboration platform <br>
-            for modern team</p>
+            <div class="position-relative">
+              <input type="text" id="inputEmail" class="form-control bg-footer"
+                aria-label="Text input with dropdown button" placeholder="Email" />
+              <!-- <i class="fa-solid fa-arrow-right text-secondary" style="color: white"></i> -->
+              <svg class="icon-navigation-arrow-forward-24-px position-absolute end-0 top-50 translate-middle-y me-2"
+                width="32" height="32" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
+                  fill="#7676B2" />
+              </svg>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links ">
-          <h4 class="text-primary">Company</h4>
-          <ul>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Support</a></li>
-          </ul>
+        <div class="row" style="font-size: 10px">
+          <div class="col-md-6 col-sm-6 col-xs-6 p-0">
+            <div class="pull-left mt-5">
+              <p><i class="fa fa-copyright"></i> Copyright Team Inc.</p>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4 class="text-primary">Features</h4>
-          <ul>
-            <li><a href="#">Screen Sharing</a></li>
-            <li><a href="#">iOS & Android Apps</a></li>
-            <li><a href="#">File Sharing</a></li>
-            <li><a href="#">User Management</a></li>
-
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4 class="text-primary">Contact Us</h4>
-          <p>
-            info@teamapp.com<br><br>
-            1-800-200-300<br><br>
-            1010 Sunset Blv.<br>
-            Palo Alto, California<br>
-          </p>
-
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4 class="text-primary">Stay up to date</h4>
-          <ul>
-            <li>
-              <p>Subscripe to our newseller</p>
-            </li>
-            <li>
-              <div class="d-flex flex-md-row flex-column gap-2 align-items-lg-center m-0 mt-5">
-                <div class="position-relative">
-                  <input type="text" id="inputEmail" class="form-control" aria-label="Text input with dropdown button"
-                    placeholder="Email" />
-                  <svg
-                    class="icon-navigation-arrow-forward-24-px position-absolute end-0 top-50 translate-middle-y me-2"
-                    width="32" height="32" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
-                      fill="#7676B2" />
-                  </svg>
-                </div>
-            </li>
-          </ul>
-
-        </div>
-
       </div>
     </div>
-
-    <div class="container mt-4 ">
-
-      <div class="copyright d-flex">
-        &copy; Copyright Team inc.
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i

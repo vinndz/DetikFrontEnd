@@ -114,6 +114,16 @@ a:hover {
   text-decoration: none;
 }
 
+
+.ul li {
+  list-type:none;
+  }
+
+  .footer-ul {
+    line-height: 40px;
+    list-style: none;
+  }
+
 h1,
 h2,
 h3,
